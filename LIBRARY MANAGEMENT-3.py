@@ -5,7 +5,7 @@ import pyttsx3
 engine=pyttsx3.init()
 engine.say("This program is related with library management")
 engine.runAndWait()
-con=a.connect(host="localhost",user="root",passwd="KZ@filza2112")
+con=a.connect(host="localhost",user="root",passwd="")
 mycursor=con.cursor(buffered=True)
 try:
     mycursor.execute("create database project")
