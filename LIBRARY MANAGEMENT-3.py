@@ -153,7 +153,7 @@ def dispbook():
         print("Subject:",i[4])
         print("...........................")
     main()
-def issuedbooks():
+def issuedbook():
     a="select * from issue"
     mycursor.execute(a)
     myresult=mycursor.fetchall()
@@ -199,13 +199,12 @@ def main():
     elif (choice=='6'):
         dispbook()
     elif (choice=='7'):
-        issuedbooks()
+        issuedbook()
     elif (choice=='8'):
         EXIT()
     else:
         print("wrong choice.................")
-        main()
-        
+        main()  
 main()
 engine.stop()
     
