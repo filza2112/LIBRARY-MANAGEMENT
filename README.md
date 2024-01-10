@@ -13,4 +13,4 @@
   <li>EXIT THE PROGRAMME</li>
   </ul>
   <h3>Python code is connected with Mysql database to make the data mangement process more efficient
-  <h3>A voice assistant is also added through pyttsx3 module</h3>
+  <h3>A text-to-speech is also added through pyttsx3 module</h3>
